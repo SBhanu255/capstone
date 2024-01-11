@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: profile_vw
+    database: dbt_db
+    schema: raw
+    tables:
+      - name: profile
+
+  - name: portfolio_vw
+    database: dbt_db
+    schema: raw
+    tables:
+      - name: portfolio
+
+  - name: transcript_vw
+    database: dbt_db
+    schema: raw
+    tables:
+      - name: transcript
